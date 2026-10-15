@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InventoryOne</title>
+  <meta name="description" content="InventoryOne: controla el inventario, las ventas y el dinero de tu negocio desde el teléfono. Desarrollada por InventoryOne Apps.">
+  <link rel="icon" href="https://play-lh.googleusercontent.com/xv8RmDBi6pZ_K84gG1CNRsGy8CnJ6YVU2ebqbO_ItXZlq3m_j_YB8QFk85oQo2R_IiTzLoicKU7tiE90ZoDi4Q=s192">
+  <style>
+    :root {
+      --fondo: #f7f6fb;
+      --tarjeta: #ffffff;
+      --texto: #1d1b26;
+      --suave: #5d5a6e;
+      --borde: #e6e3f0;
+      --marca: #6d4aff;
+      --marca-texto: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fondo: #121118;
+        --tarjeta: #1c1a24;
+        --texto: #f1effa;
+        --suave: #aaa6bd;
+        --borde: #2c2938;
+        --marca: #8f73ff;
+        --marca-texto: #ffffff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--fondo);
+      color: var(--texto);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.55;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+    header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+    header img { width: 72px; height: 72px; border-radius: 18px; }
+    h1 { font-size: 2rem; margin: 0; }
+    .lema { margin: 2px 0 0; color: var(--suave); }
+    p.intro { font-size: 1.1rem; }
+    .boton {
+      display: inline-block;
+      background: var(--marca);
+      color: var(--marca-texto);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 12px 20px;
+      border-radius: 12px;
+      margin: 8px 0 32px;
+    }
+    .rejilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+    .tarjeta { background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 16px; padding: 16px 18px; }
+    .tarjeta h2 { font-size: 1rem; margin: 0 0 6px; }
+    .tarjeta p { margin: 0; color: var(--suave); font-size: 0.95rem; }
+    section { margin-top: 40px; }
+    section h2 { font-size: 1.2rem; }
+    ul.enlaces { list-style: none; padding: 0; margin: 0; }
+    ul.enlaces li { margin: 8px 0; }
+    a { color: var(--marca); }
+    footer { margin-top: 48px; color: var(--suave); font-size: 0.9rem; border-top: 1px solid var(--borde); padding-top: 16px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="https://play-lh.googleusercontent.com/xv8RmDBi6pZ_K84gG1CNRsGy8CnJ6YVU2ebqbO_ItXZlq3m_j_YB8QFk85oQo2R_IiTzLoicKU7tiE90ZoDi4Q=s192" alt="Ícono de InventoryOne">
+      <div>
+        <h1>InventoryOne</h1>
+        <p class="lema">Inventario, ventas y finanzas en un solo lugar</p>
+      </div>
+    </header>
+
+    <p class="intro">InventoryOne es una app para Android que le da a tu negocio el control de su inventario, sus ventas y su dinero, sin hojas de cálculo ni cuadernos.</p>
+
+    <a class="boton" href="https://play.google.com/store/apps/details?id=com.inventoryone.app">Descargar en Google Play</a>
+
+    <div class="rejilla">
+      <div class="tarjeta">
+        <h2>Inventario</h2>
+        <p>Productos con foto, precios, unidades de medida, códigos de barras, stock mínimo y fechas de vencimiento.</p>
+      </div>
+      <div class="tarjeta">
+        <h2>Ventas y compras</h2>
+        <p>Registra cada movimiento en segundos, vende a crédito y lleva las devoluciones de clientes y a proveedores.</p>
+      </div>
+      <div class="tarjeta">
+        <h2>Dinero</h2>
+        <p>Varias cuentas, cada una con su moneda, ingresos, gastos, gastos fijos y arqueo de caja.</p>
+      </div>
+      <div class="tarjeta">
+        <h2>Reportes</h2>
+        <p>Ganancias, productos más vendidos y exportación a PDF y CSV.</p>
+      </div>
+    </div>
+
+    <section>
+      <h2>Plan gratis y Premium</h2>
+      <p>La app es gratis, con anuncios y algunos límites. Premium elimina los anuncios y los límites, y se compra dentro de la app a través de Google Play. Hay una prueba gratuita de 30 días.</p>
+    </section>
+
+    <section>
+      <h2>Privacidad y soporte</h2>
+      <ul class="enlaces">
+        <li><a href="https://sites.google.com/view/inventoryonepro">Política de privacidad</a></li>
+        <li><a href="https://sites.google.com/view/inventoryonepro/como-eliminar-cuenta">Cómo eliminar tu cuenta y tus datos</a></li>
+        <li>Contacto: <a href="mailto:inventoryonepro@gmail.com">inventoryonepro@gmail.com</a></li>
+      </ul>
+    </section>
+
+    <section lang="en">
+      <h2>In English</h2>
+      <p>InventoryOne is an Android app to manage your business inventory, sales and money in one place. It is free with ads, and Premium (bought in the app through Google Play) removes the ads and the limits. <a href="https://play.google.com/store/apps/details?id=com.inventoryone.app">Get it on Google Play</a> · <a href="https://sites.google.com/view/inventoryonepro">Privacy policy</a> · <a href="mailto:inventoryonepro@gmail.com">inventoryonepro@gmail.com</a></p>
+    </section>
+
+    <footer>© 2026 InventoryOne Apps</footer>
+  </main>
+</body>
+</html>
